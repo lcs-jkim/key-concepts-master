@@ -40,12 +40,6 @@ canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
 canvas.drawEllipse(at: Point(x: 100, y: 100), width: 50, height: 75)
 
-// Has a border, no fill
-canvas.drawShapesWithBorders = true
-canvas.drawShapesWithFill = false
-canvas.drawEllipse(at: Point(x: 200, y: 100), width: 50, height: 75)
-
-
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
