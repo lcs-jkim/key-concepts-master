@@ -38,8 +38,9 @@ let lightRed = Color(hue: 4, saturation: 78, brightness: 92, alpha: 100)
 // No border, has a fill
 canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
-canvas.drawEllipse(at: Point(x: 100, y: 100), width: 50, height: 75)
 
+canvas.fillColor = grey
+canvas.drawEllipse(at: Point(x: 200, y:300), width: 550, height: 750)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
