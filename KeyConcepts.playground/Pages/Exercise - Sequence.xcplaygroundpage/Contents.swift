@@ -39,8 +39,23 @@ let lightRed = Color(hue: 4, saturation: 78, brightness: 92, alpha: 100)
 canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
 
+// Giant ellipse to change background colour
 canvas.fillColor = grey
-canvas.drawEllipse(at: Point(x: 200, y:300), width: 550, height: 750)
+canvas.drawEllipse(at: Point(x: 200, y: 300), width: 650, height: 800)
+
+// Put first big red circle
+canvas.fillColor = lightRed
+canvas.drawEllipse(at: Point(x: 200, y:200), width: 370, height: 370)
+
+// Put smaller grey circle to make donut hole
+canvas.fillColor = grey
+canvas.drawEllipse(at: Point(x:200, y:200), width: 175, height: 175)
+
+// Put the blue circle
+canvas.fillColor = lightBlue
+canvas.drawEllipse(at: Point(x:350, y:200), width: 370, height: 370)
+
+// Get rid of the center?
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
