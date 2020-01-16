@@ -51,11 +51,13 @@ canvas.drawEllipse(at: Point(x: 200, y:200), width: 370, height: 370)
 canvas.fillColor = grey
 canvas.drawEllipse(at: Point(x:200, y:200), width: 175, height: 175)
 
-// Put the blue circle
-canvas.fillColor = lightBlue
-canvas.drawEllipse(at: Point(x:350, y:200), width: 370, height: 370)
+// define the colour and shapes without fill
+canvas.borderColor = lightBlue
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = false
 
-// Get rid of the center?
+// put blue ring
+canvas.drawEllipse(at: Point(x:350, y:200), width: 175, height: 175)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
