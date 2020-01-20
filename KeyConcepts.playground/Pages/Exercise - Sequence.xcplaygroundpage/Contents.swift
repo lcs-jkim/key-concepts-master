@@ -57,7 +57,8 @@ canvas.drawShapesWithBorders = true
 canvas.drawShapesWithFill = false
 
 // put blue ring
-canvas.drawEllipse(at: Point(x:350, y:200), width: 175, height: 175)
+canvas.defaultBorderWidth = 100
+canvas.drawEllipse(at: Point(x:350, y:200), width: 275, height: 275)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
