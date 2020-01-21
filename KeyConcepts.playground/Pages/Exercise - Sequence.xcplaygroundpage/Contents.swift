@@ -59,6 +59,9 @@ canvas.drawShapesWithFill = false
 // put blue ring
 canvas.defaultBorderWidth = 100
 canvas.drawEllipse(at: Point(x:350, y:200), width: 275, height: 275)
+
+// Put the text
+canvas.drawText(message: "the jesus", at, x:25, y:450, size: int = 25, kerning: Float = 0.0)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
