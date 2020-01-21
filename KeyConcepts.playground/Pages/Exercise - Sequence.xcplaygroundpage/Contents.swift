@@ -61,7 +61,9 @@ canvas.defaultBorderWidth = 100
 canvas.drawEllipse(at: Point(x:350, y:200), width: 275, height: 275)
 
 // Put the text
-canvas.drawText(message: "the jesus", at, x:25, y:450, size: int = 25, kerning: Float = 0.0)
+canvas.drawText(message: "the jesus", at: Point(x: 25, y: 450), size: 40, kerning: 0)
+
+canvas.drawText(message: "and mary chain", at: Point(x: 25, y: 405), size: 40, kerning: 0)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
