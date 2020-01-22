@@ -64,6 +64,16 @@ canvas.drawEllipse(at: Point(x:350, y:200), width: 275, height: 275)
 canvas.drawText(message: "the jesus", at: Point(x: 25, y: 450), size: 40, kerning: 0)
 
 canvas.drawText(message: "and mary chain", at: Point(x: 25, y: 405), size: 40, kerning: 0)
+
+// Put subtext #1
+canvas.drawText(message: "friday", at: Point(x: 25, y: 560), size: 10, kerning: 0)
+canvas.drawText(message: "december 4 1987", at: Point(x: 25, y: 545), size: 10, kerning: 0)
+canvas.drawText(message: "8pm show", at: Point(x: 25, y: 530), size: 10, kerning: 0)
+
+// Put subtext #2
+canvas.drawText(message: "with", at: Point(x: 130, y: 560), size: 10, kerning: 0)
+canvas.drawText(message: "social distortion", at: Point(x: 130, y: 545), size: 10, kerning: 0)
+canvas.drawText(message: "and opal", at: Point(x: 130, y: 530), size: 10, kerning: 0)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
