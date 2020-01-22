@@ -56,8 +56,17 @@ for x in stride(from: 25, to: 375, by: 100) {
     // Create blue stripes
      canvas.drawLine(from: Point(x: x, y: 0), to: Point(x: x, y: 350))
 }
-    
 
+// Green stripes
+canvas.lineColor = neonGreen
+
+// Create a loop for the green stripes
+for X in stride(from: 75, to: 400, by: 100) {
+    
+    // Create green stripes
+    canvas.drawLine(from: Point(x: X, y: 75), to: Point(x:X, y: 400))
+}
+    
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
