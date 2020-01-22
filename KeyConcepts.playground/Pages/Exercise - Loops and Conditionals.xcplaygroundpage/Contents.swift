@@ -45,6 +45,19 @@ canvas.drawShapesWithFill = true
 // Make a big rectangle to make background colour
 canvas.fillColor = deepOrange
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
+
+// blue stripes
+canvas.fillColor = lightBlue
+canvas.defaultLineWidth = 50
+
+// Create a loop for the blue stripes
+for x in stride(from: 0, to: 350, by: 100) {
+    
+    // Create blue stripes
+     canvas.drawLine(from: Point(x: x, y: 350), to: Point(x: x, y: 350))
+}
+    
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
