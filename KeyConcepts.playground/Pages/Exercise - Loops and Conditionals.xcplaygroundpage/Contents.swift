@@ -67,6 +67,9 @@ for X in stride(from: 75, to: 400, by: 100) {
     canvas.drawLine(from: Point(x: X, y: 75), to: Point(x:X, y: 400))
 }
     
+// Put the big sloan text
+canvas.textColor = Color.white
+canvas.drawText(message: "sloan", at: Point(x: 150, y: 425), size: 95, kerning: 0)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
