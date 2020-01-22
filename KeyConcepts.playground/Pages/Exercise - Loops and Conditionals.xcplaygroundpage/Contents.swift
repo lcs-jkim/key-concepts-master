@@ -76,6 +76,44 @@ canvas.drawText(message: "saturday", at: Point(x: 20, y: 570), size: 8, kerning:
 canvas.drawText(message: "december 19 1992", at: Point(x: 20, y: 555), size: 8, kerning: 0)
 canvas.drawText(message: "9 pm", at: Point(x: 20, y: 540), size: 8, kerning: 0)
 
+// Put the 2nd block of subtext
+canvas.drawText(message: "with", at: Point(x: 150, y: 570), size: 8, kerning: 0)
+canvas.drawText(message: "thrush hermit", at: Point(x: 150, y: 555), size: 8, kerning: 0)
+canvas.drawText(message: "the quahogs", at: Point(x: 150, y: 540), size: 8, kerning: 0)
+
+// Put the 3rd block of text
+canvas.drawText(message: "camaro's cafe", at: Point(x: 275, y: 570), size: 8, kerning: 0)
+canvas.drawText(message: "halifax", at: Point(x: 275, y: 555), size: 8, kerning: 0)
+canvas.drawText(message: "nova scotia", at: Point(x: 275, y: 540), size: 8, kerning: 0)
+/*:
+ ## Template code
+ The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
+ */
+
+/*:
+ ## Template code
+ The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
+ */
+
+/*:
+ ## Template code
+ The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
+ */
+
+/*:
+ ## Template code
+ The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
+ */
+
+/*:
+ ## Template code
+ The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
+ */
+
+/*:
+ ## Template code
+ The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
+ */
 
 /*:
  ## Template code
