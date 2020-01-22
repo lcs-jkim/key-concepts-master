@@ -47,14 +47,14 @@ canvas.fillColor = deepOrange
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
 
 // blue stripes
-canvas.fillColor = lightBlue
+canvas.lineColor = lightBlue
 canvas.defaultLineWidth = 50
 
 // Create a loop for the blue stripes
-for x in stride(from: 0, to: 350, by: 100) {
+for x in stride(from: 25, to: 375, by: 100) {
     
     // Create blue stripes
-     canvas.drawLine(from: Point(x: x, y: 350), to: Point(x: x, y: 350))
+     canvas.drawLine(from: Point(x: x, y: 0), to: Point(x: x, y: 350))
 }
     
 
