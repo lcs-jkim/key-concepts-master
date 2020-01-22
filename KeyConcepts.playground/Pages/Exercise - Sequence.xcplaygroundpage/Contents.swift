@@ -74,6 +74,11 @@ canvas.drawText(message: "8pm show", at: Point(x: 25, y: 530), size: 10, kerning
 canvas.drawText(message: "with", at: Point(x: 130, y: 560), size: 10, kerning: 0)
 canvas.drawText(message: "social distortion", at: Point(x: 130, y: 545), size: 10, kerning: 0)
 canvas.drawText(message: "and opal", at: Point(x: 130, y: 530), size: 10, kerning: 0)
+
+// Put subtext #3
+canvas.drawText(message: "hollywood palladium", at: Point(x: 275, y: 560), size: 10, kerning: 0)
+canvas.drawText(message: "6215 sunset blvd.", at: Point(x: 275, y: 545), size: 10, kerning: 0)
+canvas.drawText(message: "los angeles, californa", at: Point(x: 275, y: 530), size: 10, kerning: 0)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
